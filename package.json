@@ -36,6 +36,11 @@
     "ssh2": "^1.13.0",
     "underscore-plus": "*"
   },
+  "overrides": {
+    "node-pty-prebuilt-multiarch": {
+      "prebuild-install": "^7.0.0"
+    }
+  },
   "scripts": {
     "postinstall": "node script/postinstall.js"
   },
