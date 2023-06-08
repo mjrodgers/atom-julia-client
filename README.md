@@ -4,11 +4,6 @@ I'm attempting to bring Juno to the Pulsar-edit, currently a work-in-progress.
 
 # Julia Client
 
+At the moment, this is almost the same (aside from some dependency updates) as the package from [Juno](http://junolab.org), which has switched development to the  [Julia extension for VSCode](https://github.com/julia-vscode/julia-vscode).
 
-**Attention**: We have decided to join forces with the [Julia extension for VSCode](https://github.com/julia-vscode/julia-vscode). As such, this Atom-based plugin is effectively in “maintenance-only mode” and we expect to only work on bug fixes in the future.
-
-----
-
-[![Developer Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JunoLab/Juno) [![Build Status](https://travis-ci.org/JunoLab/atom-julia-client.svg?branch=master)](https://travis-ci.org/JunoLab/atom-julia-client) [![Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://JunoLab.github.io/JunoDocs.jl/latest)
-
-This is the main repo for [Juno](http://junolab.org), the Julia IDE. Please see [here](http://docs.junolab.org/latest/man/installation) for installation instructions and report problems at [the discussion board](http://discourse.julialang.org/).
+This package can be installed in Pulsar-edit directly using the GitHub link, as a drop-in replacement for the JunoLab version of the package (you should reinstall that), after installing the rest of Juno using the [uber-Juno](https://github.com/JunoLab/uber-juno) package. Some of the changes allowed this to install in Pulsar for me, although to get it to actually function I had to navigate to the `~/.pulsar/packages/atom-julia-ide/` directory and run `npm ci --no-optional` followed by `npx electron-rebuild -v 12.2.3`. Hoping to fix this at some point...
