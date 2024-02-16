@@ -101,5 +101,10 @@
   "package-deps": [
     "ink",
     "language-julia"
-  ]
+  ],
+  "apmInstallSource": {
+    "type": "git",
+    "source": "https://github.com/mjrodgers/atom-julia-client",
+    "sha": "9205e5ef9f6aff08b6bb4ff676bb836704823172"
+  }
 }
