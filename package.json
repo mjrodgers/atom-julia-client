@@ -105,6 +105,6 @@
   "apmInstallSource": {
     "type": "git",
     "source": "https://github.com/mjrodgers/atom-julia-client",
-    "sha": "9205e5ef9f6aff08b6bb4ff676bb836704823172"
+    "sha": "76f357f3441bac1f364ec2897fea5a10f540d933"
   }
 }
