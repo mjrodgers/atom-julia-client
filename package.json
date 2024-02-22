@@ -1,7 +1,7 @@
 {
   "name": "julia-client",
   "main": "./lib/julia-client",
-  "version": "0.12.6",
+  "version": "0.12.7",
   "description": "The core package of Juno, the Julia IDE",
   "keywords": [
     "julia",
@@ -29,17 +29,12 @@
     "atom-select-list": "^0.7.2",
     "etch": "^0.14",
     "fuzzaldrin-plus": "^0.6.0",
-    "node-pty-prebuilt-multiarch": "^0.10.1-pre.5",
+    "@homebridge/node-pty-prebuilt-multiarch": "^0.11.0",
     "object-hash": "^2.0.3",
     "physical-cpu-count": "*",
     "semver": "^6.3.0",
     "ssh2": "^1.13.0",
     "underscore-plus": "*"
-  },
-  "overrides": {
-    "node-pty-prebuilt-multiarch": {
-      "prebuild-install": "^7.0.0"
-    }
   },
   "scripts": {
     "postinstall": "node script/postinstall.js"
