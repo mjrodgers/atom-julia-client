@@ -1,4 +1,4 @@
-const shell           = require 'electron'
+shell           = require 'electron'
 cells                 = require '../misc/cells'
 {CompositeDisposable} = require 'atom'
 
