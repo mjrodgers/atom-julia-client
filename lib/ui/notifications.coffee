@@ -1,4 +1,4 @@
-remote = require 'remote'
+remote = require 'electron'
 
 module.exports =
   # notes: []
